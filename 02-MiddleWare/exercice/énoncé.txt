@@ -1,0 +1,10 @@
+ 
+ 
+ Nous allons rajouter 2 nouvelles routes projet bot discord
+ la route /dashboard: Qui renverra une page html
+ la route /forbidden: Qui renverra une page html 
+ informant notre utilisateur qu'il a essayé de rentrer dans une    zone non autorisé
+ -secretMiddleware: qui va vérifier la présence d'un query param secret. 
+ Si sa valeur est correcte, on ne fais rien. si sa valeur est incorrecte, 
+ alors le le middleware redirige vers la page/fordibben
+ (Vous pouvez utilisez la function redirect de l'objet response)
